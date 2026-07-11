@@ -1,0 +1,250 @@
+.search-box{
+
+text-align:center;
+margin:30px;
+
+}
+
+.search-box input{
+
+width:350px;
+padding:12px;
+border-radius:6px;
+border:1px solid gray;
+
+}
+
+.search-box button{
+
+padding:12px 20px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+.product-container{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin:30px;
+
+}
+
+.product-card{
+
+width:250px;
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+.product-card img{
+
+width:100%;
+border-radius:8px;
+
+}
+
+.product-card h3{
+
+margin:10px 0;
+
+}
+
+.product-card button{
+
+background:#2563eb;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+.product-card button:hover{
+
+background:#1d4ed8;
+
+}
+.cart-container{
+
+width:90%;
+
+margin:40px auto;
+
+}
+
+.cart-container table{
+
+width:100%;
+
+border-collapse:collapse;
+
+background:white;
+
+box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+.cart-container th,
+.cart-container td{
+
+padding:15px;
+
+border:1px solid #ddd;
+
+text-align:center;
+
+}
+
+.cart-container th{
+
+background:#2563eb;
+
+color:white;
+
+}
+
+.checkout{
+
+margin-top:30px;
+
+text-align:right;
+
+}
+
+.checkout button{
+
+padding:12px 25px;
+
+background:green;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+.checkout button:hover{
+
+background:darkgreen;
+
+}
+.orders-container{
+
+width:90%;
+margin:40px auto;
+
+}
+
+.orders-container table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+.orders-container th,
+.orders-container td{
+
+padding:15px;
+border:1px solid #ddd;
+text-align:center;
+
+}
+
+.orders-container th{
+
+background:#2563eb;
+color:white;
+
+}
+
+.delivered{
+
+color:green;
+font-weight:bold;
+
+}
+
+.shipping{
+
+color:orange;
+font-weight:bold;
+
+}
+
+.pending{
+
+color:red;
+font-weight:bold;
+
+}
+.profile-container{
+
+width:500px;
+margin:50px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+
+}
+
+.profile-img{
+
+width:150px;
+height:150px;
+border-radius:50%;
+margin-bottom:20px;
+
+}
+
+.profile-details{
+
+text-align:left;
+margin:20px 0;
+
+}
+
+.profile-details p{
+
+padding:10px;
+border-bottom:1px solid #ddd;
+
+}
+
+.edit-btn{
+
+padding:12px 25px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+
+}
+
+.edit-btn:hover{
+
+background:#1d4ed8;
+
+}
